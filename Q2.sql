@@ -22,4 +22,4 @@ INSERT INTO ENROLLMENT VALUES (213, 'Electronic Music Fundamentals', 'A');
 SELECT ClassName, COUNT(*) AS Total
 FROM ENROLLMENT
 GROUP BY ClassName
-ORDER BY Total DESC, ClassName;
+ORDER BY Total DESC, ClassName DESC;
