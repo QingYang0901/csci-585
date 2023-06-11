@@ -1,5 +1,4 @@
 /* use livesql */
-
 CREATE TABLE ENROLLMENT ( 
     SID INTEGER NOT NULL, 
     ClassName CHAR(30) NOT NULL, 
