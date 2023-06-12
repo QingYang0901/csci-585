@@ -34,3 +34,5 @@ FROM Instruction join Subjects
 on Instruction.subject=Subjects.subject
 GROUP BY Instructor
 HAVING COUNT(*) = (SELECT COUNT(*) FROM Subjects)
+--Created table Subjects of the all the subjects which need to be checked
+--First join table Instruction and Subjects and then find the Instructor in the joined table whose subjects' number is equal to the number of the subjects in the Subjects table.
