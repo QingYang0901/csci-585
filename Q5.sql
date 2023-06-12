@@ -34,3 +34,6 @@ FROM Instruction
 WHERE Subject IN (SELECT subject FROM Subjects)
 GROUP BY Instructor
 HAVING COUNT(*) = (SELECT COUNT(*) FROM Subjects)
+--Created table Subjects of the all the subjects which need to be checked
+--Then extract the instructor in the table instruction who teaches all the subjects contained in the table Subjects using count.
+--implemented division.
