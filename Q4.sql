@@ -3,19 +3,19 @@ CREATE TABLE Instruction(
    Instructor CHAR(15),
    hourly_rate INTEGER NOT NULL,
    PRIMARY KEY (Instructor)
-   };
+   );
 
 INSERT INTO Instruction VALUES('Aleph',40);
 INSERT INTO Instruction VALUES('Bit',40);
 INSERT INTO Instruction VALUES('CRC',50);
 INSERT INTO Instruction VALUES('Dat',60);
 
-CREATE TABLE Classes{
+CREATE TABLE Classes(
   student_count INTEGER NOT NULL,
   subject CHAR(30),
   Instructor CHAR(15),
   PRIMARY KEY (subject)
-};
+);
    
 INSERT INTO Classes VALUES(10,'MIDI controllers','Aleph');
 INSERT INTO Classes VALUES(20,'Sound mixing','Aleph');
@@ -29,7 +29,7 @@ INSERT INTO Classes VALUES(40,'MIDI controllers','Dat');
 INSERT INTO Classes VALUES(30,'EDM synthesis','Dat');
 INSERT INTO Classes VALUES(35,'Electronic Music Fundamentals','Dat');
 
-SELECT Instructor, SUM(hourly_rate*srudent_count*o.1) AS bonus
+SELECT Instructor, SUM(hourly_rate*srudent_count*0.1) AS bonus
 FROM Instruction
 JOIN Classes ON Instruction.Instructor=Classes.Instructor
 GROUP BY Instruction.instructor
