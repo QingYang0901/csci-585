@@ -5,7 +5,7 @@ CREATE TABLE Instruction(
    PRIMARY KEY (Instructor)
    };
 
-CREATE TABLE classes{
+CREATE TABLE Classes{
   student_count INTEGER NOT NULL,
   subject CHAR(30),
   Instructor CHAR(15),
