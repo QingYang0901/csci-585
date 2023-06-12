@@ -5,18 +5,18 @@ CREATE TABLE Instruction(
    PRIMARY KEY (Instructor)
    };
 
+INSERT INTO Instruction VALUES('Aleph',40);
+INSERT INTO Instruction VALUES('Bit',40);
+INSERT INTO Instruction VALUES('CRC',50);
+INSERT INTO Instruction VALUES('Dat',60);
+
 CREATE TABLE Classes{
   student_count INTEGER NOT NULL,
   subject CHAR(30),
   Instructor CHAR(15),
   PRIMARY KEY (subject)
 };
-
-INSERT INTO Instruction VALUES('Aleph',40);
-INSERT INTO Instruction VALUES('Bit',40);
-INSERT INTO Instruction VALUES('CRC',50);
-INSERT INTO Instruction VALUES('Dat',60);
-
+   
 INSERT INTO Classes VALUES(10,'MIDI controllers','Aleph');
 INSERT INTO Classes VALUES(20,'Sound mixing','Aleph');
 INSERT INTO Classes VALUES(30,'Synthesis algorithms','Aleph');
