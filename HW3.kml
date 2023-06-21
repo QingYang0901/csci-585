@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="s1">
+<LineStyle>
+<color>7f0000ff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f0000ff</color>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+</PolyStyle>
+</Style>
+<Folder>
+<name>Statues</name>
+<Placemark><name>Statue 1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28442,34.02205</coordinates></Point> 
+</Placemark>
+<Placemark><name>Statue 2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28542,34.02059</coordinates></Point> 
+</Placemark>
+<Placemark><name>Statue 3</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28843,34.02019</coordinates></Point>
+</Placemark>
+<Placemark><name>Statue 4</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28526,34.02019</coordinates></Point> 
+</Placemark>
+<Placemark><name>Statue 5</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28620,34.01884</coordinates></Point>
+</Placemark>
+<Placemark><name>Statue 6</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28588,34.01948</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Waterworks</name>
+<Placemark><name>Waterwork 1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28346,34.02056</coordinates></Point> 
+</Placemark>
+<Placemark><name>Waterwork 2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28520,34.02029</coordinates></Point>
+</Placemark>
+<Placemark><name>Waterwork 3</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28620,34.02040</coordinates></Point> 
+</Placemark>
+<Placemark><name>Waterwork 4</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28459,34.02052</coordinates></Point>
+</Placemark>
+<Placemark><name>Waterwork 5</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28300,34.02142</coordinates></Point>
+</Placemark>
+<Placemark><name>Waterwork 6</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28320,34.02221</coordinates></Point>
+
+</Document></kml>
