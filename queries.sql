@@ -15,7 +15,7 @@ INSERT INTO MAPS VALUES
 	('Waterwork 4', 'POINT(-118.28459 34.02052)'),
 	('Waterwork 5', 'POINT(-118.28300 34.02142)'),
 	('Waterwork 6', 'POINT(-118.28320 34.02221)'),
-	('Home', 'POINT(-118.26300 34.04849)'),
+	('Home', 'POINT(-118.26300 34.04849)');
 	
 
 SELECT name, ST_AsText(geom) FROM MAPS;
