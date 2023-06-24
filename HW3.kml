@@ -16,6 +16,9 @@
 <outline>1</outline>
 </PolyStyle>
 </Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28426,34.03240</coordinates></Point> 
+</Placemark>
 <Folder>
 <name>Statues</name>
 <Placemark><name>Statue 1</name>
@@ -58,5 +61,17 @@
 <styleUrl>#z1</styleUrl><Point><coordinates>-118.28320,34.02221</coordinates></Point>
 </Placemark>
 </Folder>
+
+<Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28426,34.03240 -118.28843,34.02019 -118.28620,34.01884 -118.28346,34.02056 -118.28300,34.02142 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
 
 </Document></kml>
