@@ -15,7 +15,7 @@ INSERT INTO MAPS VALUES
 	('Waterwork 4', 'POINT(-118.28459 34.02052)'),
 	('Waterwork 5', 'POINT(-118.28300 34.02142)'),
 	('Waterwork 6', 'POINT(-118.28320 34.02221)'),
-	('Home', 'POINT(-118.28426 34.03240)');
+	('Home', 'POINT(-118.27982 34.02379)');
 	
 
 SELECT name, ST_AsText(geom) FROM MAPS;
@@ -24,8 +24,8 @@ SELECT name, ST_AsText(geom) FROM MAPS;
 SELECT ST_AsText(ST_ConvexHull(ST_Collect(geom))) FROM MAPS;
 
 --Nearest Neighbors of Home
-SELECT name, ST_Astext(geom) as location, ST_Distance(geom,'POINT(-118.28426 34.03240)') as distance 
+SELECT name, ST_Astext(geom) as location, ST_Distance(geom,'POINT(-118.27982 34.02379)') as distance 
 FROM Maps
 WHERE name<>'Home' 
-ORDER BY ST_Distance(geom,'POINT(-118.28426 34.03240)') 
+ORDER BY ST_Distance(geom,'POINT(-118.27982 34.02379)') 
 limit 4;
