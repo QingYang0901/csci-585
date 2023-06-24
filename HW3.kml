@@ -79,7 +79,7 @@
 <description>Neighbour1</description>
 <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
 <LineString>
-<coordinates>-118.289474,34.019707 -118.289403,34.020101</coordinates>
+<coordinates>-118.28426,34.03240 -118.28320,34.02221</coordinates>
 </LineString>
 </Placemark>
 
@@ -88,7 +88,7 @@
 <description>Neighbour2</description>
 <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
 <LineString>
-<coordinates>-118.289474,34.019707 -118.288778,34.019825</coordinates>
+<coordinates>-118.28426,34.03240 -118.28442,34.02205</coordinates>
 </LineString>
 </Placemark>
 
@@ -97,7 +97,7 @@
 <description>Neighbour3</description>
 <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
 <LineString>
-<coordinates>-118.289474,34.019707 -118.290058,34.020335</coordinates>
+<coordinates>-118.28426,34.03240 -118.28300,34.02142</coordinates>
 </LineString>
 </Placemark>
 
@@ -106,7 +106,7 @@
 <description>Neighbour4</description>
 <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
 <LineString>
-<coordinates>-118.289474,34.019707 -118.289008,34.021643</coordinates>
+<coordinates>-118.28426,34.03240 -118.28542,34.02059</coordinates>
 </LineString>
 </Placemark>
 
